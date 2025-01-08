@@ -11,16 +11,16 @@ Fork this repo and create a PR which:
 
 ```
 {
-      "id": "<unique-template-slug-id>",
-      "title": "<template-card-title>",
-      "description": "<template-card-description>",
-      "repoUrl": "<absolute-url-to-your-github-repo>",
-      "deployUrl": "<absolute-url-to-your-tinybird-folder-in-github-repo>",
-      "demoUrl": "<absolute-url-to-public-demo>",
+      "id": "<template-slug-id>",
+      "title": "<card-title>",
+      "description": "<card-description>",
+      "repoUrl": "<url-to-your-github-repo>",
+      "deployUrl": "<url-to-your-tinybird-folder-in-github-repo>",
+      "demoUrl": "<url-to-public-demo>",
       "categories": ["category1", "category2"],
       "author": "<your-org-name>",
-      "image": "<absolute-url-to-the-image>",
-      "readme": "<absolute-url-to-TEMPLATE.md>"
+      "image": "<url-to-header-image>",
+      "readme": "<url-to-TEMPLATE.md>"
 }
 ```
 
