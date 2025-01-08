@@ -23,6 +23,6 @@ Fork this repo and create a PR which:
       "readme": "<url-to-TEMPLATE.md>"
 }
 ```
-- `TEMPLATE.md` is rendered on your template page (https://tinybird.co/templates/template-slug-id), use simple markdown: headers, bullet points, links and code snippets.
+- `TEMPLATE.md` is rendered on your template page (`https://tinybird.co/templates/template-slug-id`), use simple markdown: headers, bullet points, links and code snippets.
 
 Once the PR is approved and merged it'll show up in: https://www.tinybird.co/templates
