@@ -12,7 +12,7 @@
         "grafana",
         "starter"
       ],
-      "author": "Tinybird",
+      "author": "Alberto Romeu",
       "image": "https://github.com/tinybirdco/templates/raw/main/mcp-tinybird/header.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/mcp-tinybird/TEMPLATE.md"
     },
@@ -45,7 +45,7 @@
         "demo",
         "python"
       ],
-      "author": "Tinybird",
+      "author": "Dan Chaffelson",
       "image": "https://github.com/tinybirdco/templates/raw/main/demo-ais/header.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/demo-ais/TEMPLATE.md"
     }
