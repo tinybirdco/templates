@@ -19,7 +19,7 @@ Fork this repo and create a PR which:
       "demoUrl": "<url-to-public-demo>",
       "categories": ["category1", "category2"],
       "author": "<your-org-name>",
-      "image": "<url-to-header-image>",
+      "image": "<url-to-header-image-1431×973>",
       "readme": "<url-to-TEMPLATE.md>"
 }
 ```
