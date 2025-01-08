@@ -11,7 +11,7 @@ Fork this repo and create a PR which:
 
 ```
 {
-      "id": "<unique-template-id>",
+      "id": "<unique-template-slug-id>",
       "title": "<template-card-title>",
       "description": "<template-card-description>",
       "repoUrl": "<absolute-url-to-your-github-repo>",
