@@ -6,7 +6,7 @@ Pre-built templates created by the Tinybird community
 
 Fork this repo and create a PR which:
 
-- Adds a folder with the template assets: header image, TEMPLATE.md
+- Adds a folder with the template assets: header image (1431×973) and TEMPLATE.md
 - Modifies `template.json` including these fields:
 
 ```
@@ -23,5 +23,6 @@ Fork this repo and create a PR which:
       "readme": "<url-to-TEMPLATE.md>"
 }
 ```
+- `TEMPLATE.md` is rendered on your template page (https://tinybird.co/templates/template-slug-id), use simple markdown: headers, bullet points, links and code snippets.
 
 Once the PR is approved and merged it'll show up in: https://www.tinybird.co/templates
