@@ -13,7 +13,7 @@
         "starter"
       ],
       "author": "Tinybird",
-      "image": "https://github.com/tinybirdco/templates/raw/mcp-tinybird/header.png",
+      "image": "https://github.com/tinybirdco/templates/blob/main/mcp-tinybird/header.png?raw=true",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/mcp-tinybird/TEMPLATE.md"
     },
     {
@@ -30,7 +30,7 @@
         "vite"
       ],
       "author": "Tinybird",
-      "image": "https://github.com/tinybirdco/templates/raw/flappy-tinybird/header.png",
+      "image": "https://github.com/tinybirdco/templates/blob/main/flappy-tinybird/header.png?raw=true",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/flappy-tinybird/TEMPLATE.md"
     },
     {
@@ -46,7 +46,7 @@
         "python"
       ],
       "author": "Tinybird",
-      "image": "https://github.com/tinybirdco/templates/raw/demo-ais/header.png",
+      "image": "https://github.com/tinybirdco/templates/blob/main/demo-ais/header.png?raw=true",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/demo-ais/TEMPLATE.md"
     }
   ]
