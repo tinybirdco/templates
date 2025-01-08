@@ -1,0 +1,70 @@
+{
+  "templates": [
+    {
+      "id": "goose-chatbot",
+      "title": "Fletcher the Goose Chatbot",
+      "description": "Fletcher is an AI-powered documentation assistant that provides instant access to Tinybird and ClickHouse documentation.",
+      "repoUrl": "https://github.com/tinybirdco/goose",
+      "deployUrl": "https://github.com/tinybirdco/goose/tinybird",
+      "demoUrl": "https://analytics.tinybird.co",
+      "categories": [
+        "chatbot",
+        "starter",
+        "pinecone",
+        "slack"
+      ],
+      "author": "Tinybird",
+      "image": "/templates/images/goose.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/goose/main/README.md"
+    },
+    {
+      "id": "mcp-server-analytics",
+      "title": "MCP Server Analytics",
+      "description": "Monitor your MCP server logs with Tinybird",
+      "repoUrl": "https://github.com/tinybirdco/mcp-tinybird/tree/main/mcp-server-analytics",
+      "deployUrl": "https://github.com/tinybirdco/mcp-tinybird/mcp-server-analytics/tinybird",
+      "demoUrl": "https://analytics.tinybird.co",
+      "categories": [
+        "monitoring",
+        "grafana",
+        "starter"
+      ],
+      "author": "Tinybird",
+      "image": "https://github.com/tinybirdco/mcp-tinybird/raw/template/dashboard-template.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/mcp-tinybird/main/mcp-server-analytics/TEMPLATE.md"
+    },
+    {
+      "id": "flappy-tinybird",
+      "title": "Flappy Tinybird",
+      "description": "A game + real-time gaming dashboard built with Tinybird",
+      "repoUrl": "https://github.com/tinybirdco/flappy-tinybird",
+      "deployUrl": "https://github.com/tinybirdco/flappy-tinybird/tinybird",
+      "demoUrl": "https://tbrd.co/flappybird",
+      "categories": [
+        "dashboard",
+        "demo",
+        "starter",
+        "vite"
+      ],
+      "author": "Tinybird",
+      "image": "https://github.com/tinybirdco/flappy-tinybird/raw/main/assets/flappy.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/flappy-tinybird/main/TEMPLATE.md"
+    },
+    {
+      "id": "ais",
+      "title": "AIS data explorer",
+      "description": "This template offers a simple exploratory interface over AIS Data",
+      "repoUrl": "https://github.com/tinybirdco/demo-ais",
+      "deployUrl": "https://github.com/tinybirdco/demo-ais",
+      "demoUrl": "",
+      "categories": [
+        "dashboard",
+        "demo",
+        "python"
+      ],
+      "author": "Tinybird",
+      "image": "https://github.com/tinybirdco/demo-ais/raw/main/assets/readme_splash.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/demo-ais/main/TEMPLATE.md"
+    }
+  ]
+} 
