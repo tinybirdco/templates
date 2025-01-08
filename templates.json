@@ -1,23 +1,6 @@
 {
   "templates": [
     {
-      "id": "goose-chatbot",
-      "title": "Fletcher the Goose Chatbot",
-      "description": "Fletcher is an AI-powered documentation assistant that provides instant access to Tinybird and ClickHouse documentation.",
-      "repoUrl": "https://github.com/tinybirdco/goose",
-      "deployUrl": "https://github.com/tinybirdco/goose/tinybird",
-      "demoUrl": "https://analytics.tinybird.co",
-      "categories": [
-        "chatbot",
-        "starter",
-        "pinecone",
-        "slack"
-      ],
-      "author": "Tinybird",
-      "image": "/templates/images/goose.png",
-      "readme": "https://raw.githubusercontent.com/tinybirdco/goose/main/README.md"
-    },
-    {
       "id": "mcp-server-analytics",
       "title": "MCP Server Analytics",
       "description": "Monitor your MCP server logs with Tinybird",
