@@ -13,8 +13,8 @@
         "starter"
       ],
       "author": "Tinybird",
-      "image": "https://github.com/tinybirdco/mcp-tinybird/raw/template/dashboard-template.png",
-      "readme": "https://raw.githubusercontent.com/tinybirdco/mcp-tinybird/main/mcp-server-analytics/TEMPLATE.md"
+      "image": "https://github.com/tinybirdco/templates/raw/mcp-tinybird/header.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/mcp-tinybird/TEMPLATE.md"
     },
     {
       "id": "flappy-tinybird",
@@ -30,8 +30,8 @@
         "vite"
       ],
       "author": "Tinybird",
-      "image": "https://github.com/tinybirdco/flappy-tinybird/raw/main/assets/flappy.png",
-      "readme": "https://raw.githubusercontent.com/tinybirdco/flappy-tinybird/main/TEMPLATE.md"
+      "image": "https://github.com/tinybirdco/templates/raw/flappy-tinybird/header.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/flappy-tinybird/TEMPLATE.md"
     },
     {
       "id": "ais",
@@ -46,8 +46,8 @@
         "python"
       ],
       "author": "Tinybird",
-      "image": "https://github.com/tinybirdco/demo-ais/raw/main/assets/readme_splash.png",
-      "readme": "https://raw.githubusercontent.com/tinybirdco/demo-ais/main/TEMPLATE.md"
+      "image": "https://github.com/tinybirdco/templates/raw/demo-ais/header.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/demo-ais/TEMPLATE.md"
     }
   ]
 } 
