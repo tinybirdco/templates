@@ -2,8 +2,8 @@
   "templates": [
     {
       "id": "dub",
-      "title": "Link clicks analytics",
-      "description": "Analyze link clicks with Dub",
+      "title": "Link Clicks Analytics",
+      "description": "Analyze link clicks with Dub and Tinybird",
       "repoUrl": "https://github.com/dubinc/dub",
       "deployUrl": "https://github.com/dubinc/dub/packages/tinybird",
       "categories": [
@@ -12,8 +12,8 @@
         "nextjs"
       ],
       "author": "Dub.co",
-      "image": "https://github.com/tinybirdco/templates/raw/main/dub/header.png",
-      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/dub/TEMPLATE.md"
+      "image": "https://github.com/tinybirdco/templates/raw/dubco/dub/header.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/dubco/dub/TEMPLATE.md"
     },
     {
       "id": "mcp-server-analytics",
