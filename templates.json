@@ -6,6 +6,7 @@
       "description": "Analyze link clicks with Dub and Tinybird",
       "repoUrl": "https://github.com/dubinc/dub",
       "deployUrl": "https://github.com/dubinc/dub/packages/tinybird",
+      "demoUrl": "https://d.to/stats/try",
       "categories": [
         "analytics",
         "starter",
@@ -21,7 +22,6 @@
       "description": "Monitor your MCP server logs with Tinybird",
       "repoUrl": "https://github.com/tinybirdco/mcp-tinybird/tree/main/mcp-server-analytics",
       "deployUrl": "https://github.com/tinybirdco/mcp-tinybird/mcp-server-analytics/tinybird",
-      "demoUrl": "https://analytics.tinybird.co",
       "categories": [
         "monitoring",
         "grafana",
@@ -36,7 +36,6 @@
       "title": "Flappy Tinybird",
       "description": "A game + real-time gaming dashboard built with Tinybird",
       "repoUrl": "https://github.com/tinybirdco/flappy-tinybird",
-      "deployUrl": "https://github.com/tinybirdco/flappy-tinybird/tinybird",
       "demoUrl": "https://tbrd.co/flappybird",
       "categories": [
         "dashboard",
@@ -54,7 +53,6 @@
       "description": "This template offers a simple exploratory interface over AIS Data",
       "repoUrl": "https://github.com/tinybirdco/demo-ais",
       "deployUrl": "https://github.com/tinybirdco/demo-ais",
-      "demoUrl": "",
       "categories": [
         "dashboard",
         "demo",
