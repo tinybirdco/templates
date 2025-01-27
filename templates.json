@@ -3,7 +3,7 @@
     {
       "id": "dub",
       "title": "Link clicks analytics",
-      "description": "Analyze link clicks with Dub.co",
+      "description": "Analyze link clicks with Dub",
       "repoUrl": "https://github.com/dubinc/dub",
       "deployUrl": "https://github.com/dubinc/dub/packages/tinybird",
       "categories": [
