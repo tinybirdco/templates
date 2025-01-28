@@ -1,5 +1,3 @@
-# Auth0 + Tinybird JWT
-
 Set up an Auth0 action to get a Tinybird JWT token as part of the post-login Auth0 trigger.
 
 ## Prerequisites
