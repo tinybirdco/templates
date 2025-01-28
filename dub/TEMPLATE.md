@@ -16,10 +16,11 @@ If you are just interested in the Tinybird project, you can find the project [he
 
 ## Generate mock data
 
-You can generate mock data for local development and testing by cloning the repository and running the following commands:
+You can find sample mock data for local development in the [data-generator](https://github.com/tinybirdco/templates/tree/main/dub/data-generator) folder.
+
+Alternatively, you can generate mock data by running the `generate.js` script in that folder:
 
 ```bash
-cd dub
 npm install
 node generate.js
 
@@ -45,7 +46,6 @@ Done! Files generated:
 - Link metadata: dub_links_metadata.ndjson
 - Click events: dub_click_events.ndjson
 - Lead events: dub_lead_events.ndjson
-.DS_Store
 - Sale events: dub_sale_events.ndjson
 
 Append ndjson files to Tinybird by running;
