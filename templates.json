@@ -28,8 +28,8 @@
         "auth0"
       ],
       "author": "Alberto Romeu",
-      "image": "https://github.com/tinybirdco/templates/raw/main/auth0-jwt/header.jpg",
-      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/auth0-jwt/TEMPLATE.md"
+      "image": "https://github.com/tinybirdco/templates/raw/auth0-jwt-tokens/auth0-jwt/header.jpg",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/auth0-jwt-tokens/auth0-jwt/TEMPLATE.md"
     },
     {
       "id": "mcp-server-analytics",
