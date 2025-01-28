@@ -13,8 +13,8 @@
         "nextjs"
       ],
       "author": "Dub.co",
-      "image": "https://github.com/tinybirdco/templates/raw/dubco/dub/header.png",
-      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/dubco/dub/TEMPLATE.md"
+      "image": "https://github.com/tinybirdco/templates/raw/main/dub/header.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/dub/TEMPLATE.md"
     },
     {
       "id": "mcp-server-analytics",
