@@ -12,7 +12,7 @@ Read [this guide](https://dub.co/docs/self-hosting) to host it yourself.
 
 ## Customize the Tinybird project
 
-If you are just interested in the Tinybird project, you can find the project [here](https://github.com/dubinc/dub/packages/tinybird).
+If you are just interested in the Tinybird project, you can find it [here](https://github.com/dubinc/dub/packages/tinybird).
 
 ## Generate mock data
 
