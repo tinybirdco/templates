@@ -43,8 +43,8 @@
         "demo"
       ],
       "author": "Tinybird",
-      "image": "https://github.com/tinybirdco/templates/raw/main/real-time-python-dashboard/real-time-python-dashboard.png",
-      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/real-time-python-dashboard/TEMPLATE.md"
+      "image": "https://github.com/tinybirdco/templates/raw/python-02/real-time-python-dashboard/real-time-python-dashboard.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/python-02/real-time-python-dashboard/TEMPLATE.md"
     },
     {
       "id": "mcp-server-analytics",
