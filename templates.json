@@ -32,6 +32,21 @@
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/auth0-jwt/TEMPLATE.md"
     },
     {
+      "id": "real-time-python-dashboard",
+      "title": "Real-Time Python Dashboard",
+      "description": "A real-time Python dashboard with Tinybird",
+      "repoUrl": "https://github.com/tinybirdco/real-time-python-dashboard",
+      "deployUrl": "https://github.com/tinybirdco/real-time-python-dashboard/tinybird",
+      "categories": [
+        "dashboard",
+        "python",
+        "demo"
+      ],
+      "author": "Tinybird",
+      "image": "https://github.com/tinybirdco/templates/raw/main/real-time-python-dashboard/real-time-python-dashboard.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/real-time-python-dashboard/TEMPLATE.md"
+    },
+    {
       "id": "mcp-server-analytics",
       "title": "MCP Server Analytics",
       "description": "Monitor your MCP server logs with Tinybird",
