@@ -5,7 +5,6 @@
       "title": "Link Clicks Analytics",
       "description": "Analyze link clicks with Dub and Tinybird",
       "repoUrl": "https://github.com/dubinc/dub",
-      "deployUrl": "https://dub.co/docs/self-hosting",
       "demoUrl": "https://d.to/stats/try",
       "categories": [
         "analytics",
