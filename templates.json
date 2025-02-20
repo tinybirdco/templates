@@ -17,8 +17,8 @@
     },
     {
       "id": "auth0-jwt",
-      "title": "Auth0 + Tinybird JWT",
-      "description": "Integrate Auth0 login with Tinybird JWT",
+      "title": "Auth0 JWT",
+      "description": "Build multi-tenant apps with Auth0 and Tinybird",
       "repoUrl": "https://github.com/alrocar/tinybird-auth0-jwt",
       "demoUrl": "https://alrocar.github.io/tinybird-auth0-jwt/",
       "categories": [
