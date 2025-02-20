@@ -27,7 +27,7 @@
         "auth0"
       ],
       "author": "Alberto Romeu",
-      "image": "https://github.com/tinybirdco/templates/raw/main/auth0-jwt/auth0-banner.png",
+      "image": "https://github.com/tinybirdco/templates/blob/main/auth0-jwt/auth0-banner.png?raw=true",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/auth0-jwt/TEMPLATE.md"
     },
     {
