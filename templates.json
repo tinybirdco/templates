@@ -51,10 +51,12 @@
       "description": "Explore your Vercel logs with Tinybird",
       "repoUrl": "https://github.com/alrocar/vercel-logs-explorer-template/tree/main",
       "deployUrl": "https://github.com/alrocar/vercel-logs-explorer-template/tinybird",
+      "videoUrl": "https://youtu.be/3aIaeuCGQ-E",
       "categories": [
-        "monitoring",
-        "grafana",
-        "starter"
+        "dashboard",
+        "nextjs",
+        "starter",
+        "analytics"
       ],
       "author": "Alberto Romeu",
       "image": "templates/images/logs-explorer-template.png",
