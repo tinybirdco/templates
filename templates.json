@@ -44,6 +44,21 @@
       "author": "Alberto Romeu",
       "image": "https://github.com/tinybirdco/templates/raw/main/mcp-tinybird/header.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/mcp-tinybird/TEMPLATE.md"
+    },
+    {
+      "id": "vercel-log-drains",
+      "title": "Vercel Log Drains",
+      "description": "Explore your Vercel logs with Tinybird",
+      "repoUrl": "https://github.com/alrocar/vercel-logs-explorer-template/tree/main",
+      "deployUrl": "https://github.com/alrocar/vercel-logs-explorer-template/tinybird",
+      "categories": [
+        "monitoring",
+        "grafana",
+        "starter"
+      ],
+      "author": "Alberto Romeu",
+      "image": "templates/images/logs-explorer-template.png",
+      "readme": "https://raw.githubusercontent.com/alrocar/vercel-logs-explorer-template/main/TEMPLATE.md"
     }
   ]
 } 
