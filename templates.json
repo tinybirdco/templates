@@ -16,6 +16,21 @@
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/dub/TEMPLATE.md"
     },
     {
+      "id": "clerk-jwt",
+      "title": "Clerk JWT",
+      "description": "Build multi-tenant apps with Clerk and Tinybird",
+      "repoUrl": "https://github.com/tinybirdco/clerk-tinybird",
+      "demoUrl": "https://clerk-tinybird.vercel.app/",
+      "categories": [
+        "jwt",
+        "demo",
+        "clerk"
+      ],
+      "author": "Alberto Romeu",
+      "image": "https://raw.githubusercontent.com/tinybirdco/templates/main/clerk-jwt/clerk-banner.png",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/clerk-jwt/TEMPLATE.md"
+    },
+    {
       "id": "auth0-jwt",
       "title": "Auth0 JWT",
       "description": "Build multi-tenant apps with Auth0 and Tinybird",
