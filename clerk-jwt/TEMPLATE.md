@@ -66,6 +66,15 @@ Then you can get the token from any component with:
 const { token } = useTinybirdToken()
 ```
 
+And use it to fetch data from Tinybird:
+
+```javascript
+fetch('https://api.tinybird.co/v0/pipes/your_pipe.json', {
+  headers: {
+    Authorization: 'Bearer ${token}'
+  }
+})
+
 ## Customize the JWT token
 
 Implement your user management policies and permissions in your Clerk organization (see [Clerk docs](https://clerk.com/docs/organizations/roles-permissions)).
