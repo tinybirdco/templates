@@ -9,7 +9,7 @@ Build multi-tenant apps with Clerk and Tinybird.
 
 Create a `.env` file in the root of the project and add the following variables:
 
-```
+```shell
 # Tinybird API URL (replace with your Tinybird region host)
 NEXT_PUBLIC_TINYBIRD_API_URL=https://api.tinybird.co
 # Tinybird workspace ID for multi-tenant JWT tokens
