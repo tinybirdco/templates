@@ -1,7 +1,5 @@
 This is a template for a Next.js app that uses [Clerk](https://clerk.com/) for authentication and multi-tenant [Tinybird](https://tinybird.co/) real-time analytics applications.
 
-Use it to in your Next.js app to manage users with Clerk and authenticate them to Tinybird APIs, handle rate limits, multi-tenancy and fine grained permissions.
-
 ## Getting Started
 
 1. Create a new Clerk application
@@ -10,7 +8,11 @@ Use it to in your Next.js app to manage users with Clerk and authenticate them t
 4. Run `npm install`
 5. Run `npm run dev`
 
-In Clerk (`Dashboard > Configure > JWT templates`) create a `tinybird` JWT template with these claims:
+In Clerk (Dashboard > Configure > JWT templates) choose the `Tinybird` JWT template:
+
+![](./clerk-jwt-tinybird.png)
+
+Modify the claims to your needs:
 
 ```
 {
@@ -33,7 +35,9 @@ In Clerk (`Dashboard > Configure > JWT templates`) create a `tinybird` JWT templ
 ```
 - Use your Tinybird admin token as signking key.
 - Add as many scopes as needed, use fixed params to filter your Tinybird API endpoints.
-- Configure `fixed_params` to match the parameter names and values in your Tinybird API endpoints. Example:
+- Configure `fixed_params` to match the parameter names and values in your Tinybird API endpoints.
+
+Example:
 
 ```sql
 NODE endpoint
@@ -50,6 +54,20 @@ SQL >
 TYPE endpoint
 ```
 
+On your application request a token to `Clerk` using the `tinybird` template, where `tinybird` is the name you gave to the template.
+
+```typescript
+  const authentication = await auth()
+  const { userId, sessionId, getToken } = authentication
+  const token = await getToken({ template: "tinybird" })
+
+  fetch('https://api.tinybird.co/v0/pipes/your_pipe.json', {
+  headers: {
+    Authorization: `Bearer ${token}`
+  }
+})
+```
+
 ## How it works
 
 On Sign In, the app authenticates with Clerk, the middleware picks up the session and creates a multi-tenant Tinybird JWT token using the `tinybird` JWT template from Clerk, finally adds the token to the response headers to be used by the application.
@@ -61,6 +79,10 @@ Use the token to query Tinybird as the authenticated user.
 - Use Clerk to manage users and organizations.
 - Assign organizations to users and define organization permissions.
 - Use those organization permissions to create multi-tenant Tinybird JWT tokens using the `fixed_params` feature.
+
+## Contributing
+
+Please open an issue or submit a pull request.
 
 ## Support
 
