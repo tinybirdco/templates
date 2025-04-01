@@ -10,7 +10,7 @@ This is a template for a Next.js app that uses [Clerk](https://clerk.com/) for a
 
 In Clerk (Dashboard > Configure > JWT templates) choose the `Tinybird` JWT template:
 
-![](./clerk-jwt-tinybird.png)
+![](https://github.com/tinybirdco/templates/blob/main/clerk-jwt/clerk-jwt-tinybird.png?raw=true)
 
 Modify the claims to your needs:
 
