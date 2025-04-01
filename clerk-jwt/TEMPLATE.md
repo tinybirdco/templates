@@ -1,105 +1,69 @@
-Build multi-tenant apps with Clerk and Tinybird.
+This is a template for a Next.js app that uses [Clerk](https://clerk.com/) for authentication and multi-tenant [Tinybird](https://tinybird.co/) real-time analytics applications.
 
-## Prerequisites
+Use it to in your Next.js app to manage users with Clerk and authenticate them to Tinybird APIs, handle rate limits, multi-tenancy and fine grained permissions.
 
-1. A Clerk account. [Sign up for free](https://clerk.com).
-2. A Tinybird account and workspace. [Sign up for free](https://tinybird.co/signup).
+## Getting Started
 
-## Configure the .env
+1. Create a new Clerk application
+2. Create a new Tinybird workspace
+3. Create an `.env` file from the `.env.example` file and fill in the values
+4. Run `npm install`
+5. Run `npm run dev`
 
-Create a `.env` file in the root of the project and add the following variables:
+In Clerk (`Dashboard > Configure > JWT templates`) create a `tinybird` JWT template with these claims:
 
-```shell
-# Tinybird API URL (replace with your Tinybird region host)
-NEXT_PUBLIC_TINYBIRD_API_URL=https://api.tinybird.co
-# Tinybird workspace ID for multi-tenant JWT tokens
-TINYBIRD_WORKSPACE_ID=
-# Tinybird workspace admin token for multi-tenant JWT tokens
-TINYBIRD_JWT_SECRET=
-# Tinybird default key for unauthenticated requests
-NEXT_PUBLIC_TINYBIRD_API_KEY=
+```
+{
+	"name": "frontend_jwt",
+	"limits": {
+		"rps": 10
+	},
+	"scopes": [
+		{
+			"type": "PIPES:READ",
+			"resource": "<YOUR-TINYBIRD-PIPE-NAME>",
+			"fixed_params": {
+				"org": "{{org.slug}}",
+				"user": "{{user.id}}"
+			}
+		}
+	],
+	"workspace_id": "<YOUR-TINYBIRD-WORKSPACE-ID>"
+}
+```
+- Use your Tinybird admin token as signking key.
+- Add as many scopes as needed, use fixed params to filter your Tinybird API endpoints.
+- Configure `fixed_params` to match the parameter names and values in your Tinybird API endpoints. Example:
 
-# Clerk publishable key
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-# Clerk secret key
-CLERK_SECRET_KEY=
-# Clerk sign in URL
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+```sql
+NODE endpoint
+SQL >
+    SELECT * FROM ds
+    WHERE 1
+    {% if defined(org) %}
+        AND org = {{String(org)}}
+    {% end %}
+    {% if defined(user) %}
+        AND user = {{String(user)}}
+    {% end %}
+
+TYPE endpoint
 ```
 
-## How to use the JWT token
+## How it works
 
-This is your root layout:
+On Sign In, the app authenticates with Clerk, the middleware picks up the session and creates a multi-tenant Tinybird JWT token using the `tinybird` JWT template from Clerk, finally adds the token to the response headers to be used by the application.
 
-```javascript
-export default async function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  const headersList = await headers()
-  const token = headersList.get('x-tinybird-token') || ''
-  const orgName = headersList.get('x-org-name') || ''
+Use the token to query Tinybird as the authenticated user.
 
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-        <ClerkProvider>
-          <TinybirdProvider>
-            <RootLayoutContent initialToken={token} initialOrgName={orgName}>
-              {children}
-            </RootLayoutContent>
-          </TinybirdProvider>
-        </ClerkProvider>
-      </body>
-    </html>
-  )
-} 
-```
+## User management
 
-Then you can get the token from any component with:
+- Use Clerk to manage users and organizations.
+- Assign organizations to users and define organization permissions.
+- Use those organization permissions to create multi-tenant Tinybird JWT tokens using the `fixed_params` feature.
 
-```javascript
-const { token } = useTinybirdToken()
-```
+## Support
 
-And use it to fetch data from Tinybird:
+Join the Tinybird Slack community to get help with your project.
 
-```javascript
-fetch('https://api.tinybird.co/v0/pipes/your_pipe.json', {
-  headers: {
-    Authorization: 'Bearer ${token}'
-  }
-})
-
-## Customize the JWT token
-
-Implement your user management policies and permissions in your Clerk organization (see [Clerk docs](https://clerk.com/docs/organizations/roles-permissions)).
-
-Then you can customize the JWT token by modifying the `clerkMiddleware` function and the signJWT function.
-
-```javascript
-const token = await new jose.SignJWT({
-    workspace_id: process.env.TINYBIRD_WORKSPACE_ID,
-    name: `frontend_jwt_user_${userId}`,
-    exp: Math.floor(Date.now() / 1000) + (60 * 15), // 15 minute expiration
-    iat: Math.floor(Date.now() / 1000),
-    scopes: [
-    {
-        type: "PIPES:READ",
-        resource: "your_pipe",
-        fixed_params: { user_id: userId, org_permission: orgName }
-    }
-    ],
-    limits: {
-    rps: 10
-    }
-})
-    .setProtectedHeader({ alg: 'HS256' })
-    .sign(secret)
-```
-
-See this guide for more details: [Multi-tenant real-time APIs with Clerk and Tinybird](https://tinybird.co/docs/publish/api-endpoints/guides/multitenant-real-time-apis-with-clerk-and-tinybird).
+Learn more about [Tinybird JWT tokens](https://www.tinybird.co/docs/forward/get-started/authentication) and [Clerk](https://www.tinybird.co/docs/forward/publish-your-data/api-endpoints/guides/multitenant-real-time-apis-with-clerk-and-tinybird).
