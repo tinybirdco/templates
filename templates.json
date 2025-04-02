@@ -48,14 +48,15 @@
     },
     {
       "id": "mcp-server-analytics",
-      "title": "MCP Server Analytics",
+      "title": "MCP Analytics",
       "description": "Monitor your MCP server logs with Tinybird",
       "repoUrl": "https://github.com/tinybirdco/mcp-tinybird/tree/main/mcp-server-analytics",
       "deployUrl": "https://github.com/tinybirdco/mcp-tinybird/mcp-server-analytics/tinybird",
       "categories": [
         "monitoring",
         "grafana",
-        "starter"
+        "starter",
+        "ai"
       ],
       "author": "Alberto Romeu",
       "image": "https://github.com/tinybirdco/templates/raw/main/mcp-tinybird/header.png",
