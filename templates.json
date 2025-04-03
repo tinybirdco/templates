@@ -16,6 +16,22 @@
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/dub/TEMPLATE.md"
     },
     {
+      "id": "inbox-zero",
+      "title": "Inbox Zero",
+      "description": "Build an AI email assistant to reach inbox zero",
+      "repoUrl": "https://github.com/elie222/inbox-zero",
+      "videoUrl": "https://www.youtube.com/watch?v=hfvKvTHBjG0&t=4s",
+      "categories": [
+        "analytics",
+        "starter",
+        "nextjs",
+        "ai"
+      ],
+      "author": "https://www.getinboxzero.com/",
+      "image": "https://github.com/tinybirdco/templates/raw/main/inboxzero/inboxzero.webp",
+      "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/inboxzero/TEMPLATE.md"
+    },
+    {
       "id": "clerk-jwt",
       "title": "Clerk JWT",
       "description": "Build multi-tenant apps with Clerk and Tinybird",
