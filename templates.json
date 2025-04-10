@@ -4,8 +4,8 @@
       "id": "dub",
       "title": "Link Clicks Analytics",
       "description": "Analyze link clicks with Dub and Tinybird",
-      "repoUrl": "https://github.com/dubinc/dub",
       "demoUrl": "https://d.to/stats/try",
+      "repoUrl": "https://github.com/dubinc/dub",
       "categories": [
         "analytics",
         "starter",
@@ -28,7 +28,7 @@
         "ai"
       ],
       "author": "https://www.getinboxzero.com/",
-      "image": "https://github.com/tinybirdco/templates/raw/main/inboxzero/inboxzero.webp",
+      "image": "https://github.com/tinybirdco/templates/raw/main/inboxzero/inboxzero.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/inboxzero/TEMPLATE.md"
     },
     {
@@ -67,7 +67,6 @@
       "title": "MCP Analytics",
       "description": "Monitor your MCP server logs with Tinybird",
       "repoUrl": "https://github.com/tinybirdco/mcp-tinybird/tree/main/mcp-server-analytics",
-      "deployUrl": "https://github.com/tinybirdco/mcp-tinybird/mcp-server-analytics/tinybird",
       "categories": [
         "monitoring",
         "grafana",
@@ -83,7 +82,6 @@
       "title": "Vercel Log Drains",
       "description": "Explore your Vercel logs with Tinybird",
       "repoUrl": "https://github.com/alrocar/vercel-logs-explorer-template/tree/main",
-      "deployUrl": "https://github.com/alrocar/vercel-logs-explorer-template/tinybird",
       "videoUrl": "https://youtu.be/3aIaeuCGQ-E",
       "categories": [
         "dashboard",
