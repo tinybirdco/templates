@@ -81,7 +81,7 @@
       "id": "vercel-log-drains",
       "title": "Vercel Log Drains",
       "description": "Explore your Vercel logs with Tinybird",
-      "repoUrl": "https://github.com/alrocar/vercel-logs-explorer-template/tree/main",
+      "repoUrl": "https://github.com/tinybirdco/vercel-log-drains-template/tree/main",
       "videoUrl": "https://youtu.be/3aIaeuCGQ-E",
       "categories": [
         "dashboard",
@@ -91,7 +91,7 @@
       ],
       "author": "Alberto Romeu",
       "image": "templates/images/logs-explorer-template.png",
-      "readme": "https://raw.githubusercontent.com/alrocar/vercel-logs-explorer-template/main/TEMPLATE.md"
+      "readme": "https://raw.githubusercontent.com/tinybirdco/vercel-log-drains-template/main/TEMPLATE.md"
     }
   ]
 } 
