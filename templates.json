@@ -90,7 +90,7 @@
         "analytics"
       ],
       "author": "Alberto Romeu",
-      "image": "templates/images/logs-explorer-template.png",
+      "image": "https://github.com/tinybirdco/templates/raw/main/vercel-log-drains/vercel-logs.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/vercel-log-drains-template/main/TEMPLATE.md"
     }
   ]
