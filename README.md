@@ -9,7 +9,7 @@ Fork this repo and create a PR which:
 - Adds a folder with the template assets: header image (1431×973) and TEMPLATE.md
 - Modifies `template.json` including these fields:
 
-```
+```json
 {
       "id": "<template-slug-id>",
       "title": "<card-title>",
@@ -19,10 +19,12 @@ Fork this repo and create a PR which:
       "demoUrl": "<url-to-public-demo>",
       "categories": ["category1", "category2"],
       "author": "<your-org-name>",
-      "image": "<url-to-header-image-1431×973>",
+      "image": "<url-to-header-image-1200×675>",
+      "ogImage": "<url-to-og-image-1200×630>",
       "readme": "<url-to-TEMPLATE.md>"
 }
 ```
+
 - `TEMPLATE.md` is rendered on your template page (`https://tinybird.co/templates/template-slug-id`), use simple markdown: headers, bullet points, links and code snippets.
 
-Once the PR is approved and merged it'll show up in: https://www.tinybird.co/templates
+Once the PR is approved and merged it'll show up in: [https://www.tinybird.co/templates](https://www.tinybird.co/templates)
