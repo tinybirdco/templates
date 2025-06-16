@@ -2,7 +2,7 @@
   "templates": [
     {
       "id": "dub",
-      "title": "URL shortener",
+      "title": "URL Shortener",
       "description": "Build an URL shortener with Dub and Tinybird",
       "demoUrl": "https://d.to/stats/try",
       "repoUrl": "https://github.com/dubinc/dub",
