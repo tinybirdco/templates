@@ -2,8 +2,8 @@
   "templates": [
     {
       "id": "dub",
-      "title": "Link Clicks Analytics",
-      "description": "Analyze link clicks with Dub and Tinybird",
+      "title": "URL shortener",
+      "description": "Build an URL shortener with Dub and Tinybird",
       "demoUrl": "https://d.to/stats/try",
       "repoUrl": "https://github.com/dubinc/dub",
       "categories": [
