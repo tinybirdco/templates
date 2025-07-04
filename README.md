@@ -18,6 +18,7 @@ Fork this repo and create a PR which:
       "deployUrl": "<url-to-your-tinybird-folder-in-github-repo>",
       "demoUrl": "<url-to-public-demo>",
       "categories": ["category1", "category2"],
+      "customers": ["customer1", "customer2"],
       "author": "<your-org-name>",
       "image": "<url-to-header-image-1200×675>",
       "ogImage": "<url-to-og-image-1200×630>",
