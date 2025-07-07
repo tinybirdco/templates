@@ -16,6 +16,7 @@
       ],
       "author": "Dub.co",
       "image": "https://github.com/tinybirdco/templates/raw/main/dub/header.png",
+      "thumbnail": "https://github.com/tinybirdco/templates/raw/main/dub/thumbnail.png",
       "ogImage": "https://github.com/tinybirdco/templates/raw/main/dub/og-image.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/dub/TEMPLATE.md"
     },
@@ -37,6 +38,7 @@
       ],
       "author": "https://www.getinboxzero.com/",
       "image": "https://github.com/tinybirdco/templates/raw/main/inboxzero/header.png",
+      "thumbnail": "https://github.com/tinybirdco/templates/raw/main/inboxzero/thumbnail.png",
       "ogImage": "https://github.com/tinybirdco/templates/raw/main/inboxzero/og-image.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/inboxzero/TEMPLATE.md"
     },
@@ -55,6 +57,7 @@
       "customers": [],
       "author": "Alberto Romeu",
       "image": "https://raw.githubusercontent.com/tinybirdco/templates/main/clerk-jwt/header.png",
+      "thumbnail": "https://raw.githubusercontent.com/tinybirdco/templates/main/clerk-jwt/thumbnail.png",
       "ogImage": "https://raw.githubusercontent.com/tinybirdco/templates/main/clerk-jwt/og-image.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/clerk-jwt/TEMPLATE.md"
     },
@@ -72,6 +75,7 @@
       "customers": [],
       "author": "Alberto Romeu",
       "image": "https://raw.githubusercontent.com/tinybirdco/templates/main/auth0-jwt/header.png",
+      "thumbnail": "https://raw.githubusercontent.com/tinybirdco/templates/main/auth0-jwt/thumbnail.png",
       "ogImage": "https://raw.githubusercontent.com/tinybirdco/templates/main/auth0-jwt/og-image.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/auth0-jwt/TEMPLATE.md"
     },
@@ -89,6 +93,7 @@
       "customers": [],
       "author": "Alberto Romeu",
       "image": "https://github.com/tinybirdco/templates/raw/main/mcp-tinybird/header.png",
+      "thumbnail": "https://github.com/tinybirdco/templates/raw/main/mcp-tinybird/thumbnail.png",
       "ogImage": "https://github.com/tinybirdco/templates/raw/main/mcp-tinybird/og-image.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/templates/main/mcp-tinybird/TEMPLATE.md"
     },
@@ -109,6 +114,7 @@
       ],
       "author": "Alberto Romeu",
       "image": "https://github.com/tinybirdco/templates/raw/main/vercel-log-drains/header.png",
+      "thumbnail": "https://github.com/tinybirdco/templates/raw/main/vercel-log-drains/thumbnail.png",
       "ogImage": "https://github.com/tinybirdco/templates/raw/main/vercel-log-drains/og-image.png",
       "readme": "https://raw.githubusercontent.com/tinybirdco/vercel-log-drains-template/main/TEMPLATE.md"
     }
