@@ -11,9 +11,6 @@
         "starter",
         "nextjs"
       ],
-      "customers": [
-        "dub"
-      ],
       "author": "Dub.co",
       "image": "https://github.com/tinybirdco/templates/raw/main/dub/header.png",
       "thumbnail": "https://github.com/tinybirdco/templates/raw/main/dub/thumbnail.png",
@@ -31,10 +28,6 @@
         "starter",
         "nextjs",
         "ai"
-      ],
-      "customers": [
-        "resend",
-        "zembula"
       ],
       "author": "https://www.getinboxzero.com/",
       "image": "https://github.com/tinybirdco/templates/raw/main/inboxzero/header.png",
@@ -54,7 +47,6 @@
         "demo",
         "clerk"
       ],
-      "customers": [],
       "author": "Alberto Romeu",
       "image": "https://raw.githubusercontent.com/tinybirdco/templates/main/clerk-jwt/header.png",
       "thumbnail": "https://raw.githubusercontent.com/tinybirdco/templates/main/clerk-jwt/thumbnail.png",
@@ -72,7 +64,6 @@
         "demo",
         "auth0"
       ],
-      "customers": [],
       "author": "Alberto Romeu",
       "image": "https://raw.githubusercontent.com/tinybirdco/templates/main/auth0-jwt/header.png",
       "thumbnail": "https://raw.githubusercontent.com/tinybirdco/templates/main/auth0-jwt/thumbnail.png",
@@ -90,7 +81,6 @@
         "starter",
         "ai"
       ],
-      "customers": [],
       "author": "Alberto Romeu",
       "image": "https://github.com/tinybirdco/templates/raw/main/mcp-tinybird/header.png",
       "thumbnail": "https://github.com/tinybirdco/templates/raw/main/mcp-tinybird/thumbnail.png",
@@ -108,9 +98,6 @@
         "nextjs",
         "starter",
         "analytics"
-      ],
-      "customers": [
-        "vercel"
       ],
       "author": "Alberto Romeu",
       "image": "https://github.com/tinybirdco/templates/raw/main/vercel-log-drains/header.png",
